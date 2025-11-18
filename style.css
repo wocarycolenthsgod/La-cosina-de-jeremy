@@ -1,0 +1,1992 @@
+*{
+   
+    padding: 0;
+    box-sizing: border-box;
+}
+.fondopared{
+    width: 100%;
+    height: 100%;
+  /*  display: flex;
+   justify-content: center; */
+   position: absolute;
+   display: flex;
+   float: left;
+   z-index: -100;
+   bottom: 0;
+    
+}
+
+.prd-start{
+   width: 13px;
+   height: 100%;
+ background-color: #4bad80; 
+   margin: 0;
+}
+
+.ultima-prd{
+    width: 10px;
+    height: 100%;
+     background-color: #2EB297;
+    margin: 0;
+}
+
+.prd1{
+    width: 30px;
+    height: 100%;
+    background-color: #4bad80;
+     margin: 0;
+}
+
+ 
+.prd2{
+    width: 30px;
+    height: 100%;
+     margin: 0;
+    background-color: #2EB297;
+}
+
+/* .pared1{
+    background-color: #000;
+}
+.pared2{
+    background-color: #000;
+}
+.pared3{
+    background-color: #000;
+}
+.pared4{
+    background-color: #000;
+}
+.pared5{
+    background-color: #000;
+}
+.pared6{
+    background-color: #000;
+}
+.pared7{
+    background-color: #000;
+}
+.pared8{
+    background-color: #000;
+}
+.pared9{
+    background-color: #000;
+}
+.pared10{
+    background-color: #000;
+}
+.pared11{
+    background-color: #000;
+}
+.pared12{
+    background-color: #000;
+}
+.pared13{
+    background-color: #000;
+}
+.pared14{
+    background-color: #000;
+}
+.pared15{
+    background-color: #000;
+}
+.pared16{
+    background-color: #000;
+}
+.pared17{
+    background-color: #000;
+}
+.pared18{
+    background-color: #000;
+}
+.pared19{
+    background-color: #000;
+}
+.pared20{
+    background-color: #000;
+}
+.pared21{
+    background-color: #000;
+}
+.pared22{
+    background-color: #000;
+}
+.pared23{
+    background-color: #000;
+}
+.pared24{
+    background-color: #000;
+}
+.pared25{
+    background-color: #000;
+}
+.pared26{
+    background-color: #000;
+}
+.pared27{
+    background-color: #000;
+}
+.pared28{
+    background-color: #000;
+}
+.pared29{
+    background-color: #000;
+}
+.pared30{
+    background-color: #000;
+}
+.pared31{
+    background-color: #000;
+}
+.pared32{
+    background-color: #000;
+}
+.pared33{
+    background-color: #000;
+}
+.pared34{
+    background-color: #000;
+}
+.pared35{
+    background-color: #000;
+}
+.pared36{
+    background-color: #000;
+}
+ */
+
+
+
+
+
+/* fin colores pared */
+
+h1{
+    text-align: center;
+}
+
+/* .cocina{
+    margin: auto;
+    width: 906px;
+    height: 538px; 
+   max-width: 100%;
+   text-align: center;
+   position: relative;
+   
+} */
+
+.cocina{
+    margin: auto;
+    width: 940px;
+    height: 538px; 
+    /* background-image: url('IMG/backRecurso\ 2.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; */
+
+    position: relative;
+}
+
+/* lamparas */
+.palito-lampra1{
+    width: 5px;
+    height: 19px;
+    background-color: #4e331e;
+    position: absolute;
+    top: 0;
+    left: 576px;
+}
+.luz-lampara1{
+    width: 19px;
+    height: 76px;
+    background-color: rgba(242, 203, 138, 0.9);
+    transform: skewX(-10deg);
+    position: absolute;
+    display: flex;
+    left: 1px;
+    top: 0px;
+}
+.lampara1{
+            width: 65px;
+            border-top: solid transparent 0px;
+            border-left: solid transparent 14px;
+            border-right: solid transparent 14px;
+            border-bottom: solid #eebe6e 76px;
+            position: absolute;
+            top: 18px;
+            left: 544px;
+            z-index: 30;
+        }
+
+/* lampara dos */
+    .palito-lampra2{
+        width: 5px;
+        height: 19px;
+        background-color: #4e331e;
+        position: absolute;
+        top: 0;
+        left: 464px;
+    }
+    .luz-lampara2{
+        width: 19px;
+        height: 76.5px;
+        background-color: rgba(242, 203, 138, 0.9);
+        transform: skewX(-10deg);
+        position: absolute;
+        display: flex;
+        left: 1px;
+        top: 0px;
+    }
+      .lampara2{
+        width: 65px;
+        border-top: solid transparent 0px;
+        border-left: solid transparent 14px;
+        border-right: solid transparent 14px;
+        border-bottom: solid #eebe6e 76px;
+        position: absolute;
+        top: 18px;
+        left: 433px;
+        z-index: 30;
+      }
+
+      /* lampara tres */
+    .palito-lampra3{
+        width: 5px; 
+        height: 19px;
+        background-color: #4e331e;
+        position: absolute;
+        top: 0;
+        left: 355px;
+    }
+    .luz-lampara3{
+        width: 19px;
+        height: 76px;
+        background-color: rgba(242, 203, 138, 0.9);
+        transform: skewX(-10deg);
+        position: absolute;
+        display: flex;
+        left: -1px;
+        top: 0px;
+    } 
+    .lampara3{
+        width: 65px;
+        border-top: solid transparent 0px;
+        border-left: solid transparent 14px;
+        border-right: solid transparent 14px;
+        border-bottom: solid #eebe6e 76px;
+        position: absolute;
+        top: 18px;
+        left: 325px;
+        z-index: 30;
+      }
+     
+    /* cuadro de pintura */
+    
+.cudro-arte{
+    width: 54px;
+    height: 111px;
+    border: 4px solid #987754;
+    background-color: #f4dabf;
+    position: absolute;
+    top: 62px;
+    left: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-cuadro{
+  width: 39px;
+  height: 89px;
+  position: absolute;
+  top: 8px;
+  left: 4px;
+  
+}
+
+/* arboles sobre la meseta */
+.arbol1{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    display: flex;
+}
+.arbol-1{
+    position: absolute;
+    top: 30px;
+    left: 145px;
+}
+.cuadro-jarra-flores1{
+    width:42px ;
+    height: 9px;
+    background-color: #725347;
+    border-radius: 4px;
+    position: absolute;
+    top: 95px;
+    left: 247px;
+}
+.jarradeflores1{
+    width: 42px;
+    height: 37px;
+    background-color: #725347;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+    position: absolute;
+    left: 247px;
+    top: 98px;
+}
+
+
+/* botella triangular entre flores */
+.botella-triangular{
+    width: 44px;
+    height: 54px;
+    position: absolute;
+    bottom: 406px;
+    left: 157px;
+    z-index: 20;
+
+}
+
+.luz-rectangulo-tope{
+   width: 3px;
+   height: 6px;
+    border-bottom: solid rgba(208, 233, 230, 0.6) 22px;
+    position: absolute;
+    z-index: 1;
+    top: 11px;
+    left: 17px;
+
+}
+.luz-botella-triangulo{
+   /*  width: 44px;
+    height: 44px; */
+    border-top: solid transparent 0px;
+    border-left: solid transparent 20px;
+    border-right: solid transparent -33px;
+    border-bottom: solid rgba(208, 233, 230, 0.6) 22px;
+    position: absolute;
+    z-index: 1;
+    top: 22px;
+    left: 0px;
+   
+
+}
+.tope-bocatringulo{
+    width: 14px;
+    height: 3px;
+    background-color: #a3d3c7;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+
+}
+.boca-botellatriangulo{
+    width: 10px;
+    height: 30px;
+    background-color: #a3d3c7 ;
+    position: absolute;
+    top: 8px;
+    left: 17.1px;
+}
+.triangulo-botella{
+    width: 44px;
+    height: 44px;
+    border-top: solid transparent 0px;
+    border-left: solid transparent 20px;
+    border-right: solid transparent 20px;
+    border-bottom: solid #a3d3c7 22px;
+
+   
+
+}
+.partebajo-triangulobotella{
+    width: 44px;
+    height: 10px;
+    background-color: #a3d3c7;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+/* bolsa entre flores */
+.bolsa-marron{
+    width: 44px;
+    height: 57px;
+
+    position: absolute;
+    bottom: 403px;
+    left: 196px;
+}
+.ladodesombra-bolsa{
+    width:16.6px;
+    height:29px;
+    background-color: #c29a74;
+    border-top-right-radius: 5px;
+    position: absolute;
+    bottom: 3px;
+    right: 0px;
+    z-index: 1;
+}
+/* .top-sombra-bolsa{
+    width: 20px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    border-radius: 2px;
+    top:14px;
+    left: 25px;
+    transform: rotate(45deg) skewX(30deg) skewY(40deg) ;
+   z-index: 1;
+} */
+.ladoclro-central{
+    width: 27px;
+    height: 12px;
+    background-color:#deba9a;/* #deba9a */
+    position: absolute;
+    top: 26px;
+    left: 1px;
+    transform: skewY(-5deg); 
+    z-index: 1;
+}
+.cuerpo-bolsa{
+    width: 43.3px;
+    height:29px ;
+    background-color: #d2ad85;
+    border-top-left-radius: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0.4px;
+
+
+
+}
+.tope-bolsa{
+    width: 28px;
+    height: 33px;
+    background-color: #d2ad85;
+    position: absolute;
+    top: -3px;
+    left: 7px;
+    border-top-right-radius: 1px;
+    border-top-left-radius: 5px;
+}
+.tope-bolsa2{
+    width: 20px;
+    height: 30px;
+    background-color: #c29a74;
+    position: absolute;
+    border-radius: 2px;
+    top:14px;
+    left: 25px;
+    transform: rotate(45deg) skewX(30deg) skewY(40deg) ;
+   /*  border-top-right-radius: 2px;
+    border-top-left-radius: 6px; */
+}
+.tope-bolsa3{
+    width: 22px;
+    height: 30px;
+    background-color: #d2ad85;
+    position: absolute;
+    border-top-left-radius: 6px;
+    top:15px;
+    left: -1.1px;
+    transform: rotate(43deg) skewX(30deg) skewY(40deg) ;
+   /*  border-top-right-radius: 2px;
+    border-top-left-radius: 6px; */
+}
+
+
+
+
+
+
+/* arbol 2 */
+
+.arbol2{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    display: flex;
+}
+.arbol-2{
+    position: absolute;
+    top: 39px;
+    left: -1px;
+}
+.cuadro-jarra-flores2{
+    width:42px ;
+    height: 9px;
+    background-color: #725347;
+    border-radius: 4px;
+    position: absolute;
+    top: 95px;
+    left: 100px;
+}
+.jarradeflores2{
+    width: 42px;
+    height: 37px;
+    background-color: #725347;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+    position: absolute;
+    left: 100px;
+    top: 98px;
+}
+
+
+
+
+/* barra donde estan la flores */
+.barra-flores{
+    width: 223px;
+    height: 10px;
+    background-color: #e1d8d5;
+    position: absolute;
+    top: 132px;
+    left: 87px;
+    z-index: 1;
+
+}
+.cuadro-flores{
+    width: 50px;
+    height: 50px;
+    background-color: #e1d8d5;
+    position: absolute;
+    top: 132px;
+    left: 175px;
+    z-index: 1;
+}
+.parte-baja-flores{
+    width: 154px;
+   
+    border-top: solid transparent 0px;
+    border-left: solid transparent 52px;
+    border-right: solid transparent 52px;
+    border-bottom: solid #ebe6e6 14px;
+    position: absolute;
+    left: 123px;
+    top: 182px;
+    z-index: 1;
+}
+.baja-parte-baja{
+    width: 154px;
+    height: 11px;
+    background-color: #ebe6e6;
+    position: absolute;
+    top: 195.7px; 
+    left: 123px;
+    z-index: 1;
+}
+
+
+
+
+/* pared amarilla */
+.amarillo-box{
+    background-color: #ebe6e2;
+    width: 724px;
+    height: 120px;
+    position: absolute;
+    bottom: 217px;
+}
+
+.inea-centro-boxamarillo{
+    width: 234px;
+    height: 7px;
+    background-color: #513f35;
+    position: absolute;
+    top: 218px;
+    left: 336px;
+}
+
+.linea-peque-toalla{
+    width: 75px;
+    height: 7px;
+    background-color: #513f35;
+    position: absolute;
+    top: 211px;
+    left: 42px;
+}
+/* guantes de cocina */
+.guantes{
+    width: 45px;
+    height: 53px;
+    
+    position: absolute;
+    top: 231px;
+    left: 352px;
+}
+.guente-4dedos{
+    width:32px ;
+    height:54px;
+    background-color: #eb5e34;
+    transform:rotate(21deg) /* skewy(29deg) skewX(-20deg) */;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;   
+    position: absolute;
+    left: 5px;
+    top: 2px;
+}
+.guante-pulgar{
+    width:10px ;
+    height:25px;
+    background-color: #eb5e34;
+    transform:rotate(-48deg) skewy(29deg) skewX(-20deg);
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    position: absolute;
+    left: 31px;
+    top: 24px;
+}
+.linea-sobreborde-guante{
+    width: 32.3px;
+    height: 2px;
+    background-color: #e6d7ce;
+    position: absolute;
+    top: 3px;
+    left: 14px;
+    transform: rotate(21deg);
+    z-index: 2;
+
+}
+.agarre-deguante{
+    width: 3px;
+    height: 13px;
+    background-color: #e6d7ce;
+    border-top-left-radius: 2px;
+    position: absolute;
+    top: -13px;
+    left: 15px;
+    z-index: 1;
+}
+/* lineas blanca del guante */
+
+    
+
+   
+
+
+
+
+
+
+
+/* area de cucharones */
+.area-cuchara{
+    width: 77px;
+    height: 65px;
+  /*   background-color: pink; */
+    position: absolute;
+    left: 406px;
+    top: 225px;
+   /*  z-index: 1; */
+}
+
+.agarra-cuchara1{
+    width: 4px;
+    height: 24px;
+    background-color:#787F77;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    z-index: 1;
+
+}
+.metal-cuchara1{
+    width: 2px;
+    height: 28px;
+    background-color:#CECFC3;
+    position: absolute;
+    left: 11px;
+    top: 23px;
+}
+
+.circolo-cuchara1{
+    width: 18px;
+    height: 17px;
+    background-color: #DFDBE9;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    position: absolute;
+    left: 2px;
+    bottom: -1px;
+    
+}
+.circulo-dentreo-cuchara1{
+    width: 12px;
+    height: 9px;
+    background-color: #A2A4B0;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 21px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 19px;
+    transform: rotate(339deg);
+    position: absolute;
+    left: 2px;
+    bottom: 6px;
+
+}
+
+/* cuchara-2 */
+.agarra-cuchara2{
+    width: 4px;
+    height: 24px;
+    background-color:#787F77;
+    position: absolute;
+    left: 34px;
+    top: 0;
+    z-index: 1;
+
+}
+.metal-cuchara2{
+    width: 2px;
+    height: 28px;
+    background-color:#CECFC3;
+    position: absolute;
+    left: 35px;
+    top: 23px;
+}
+/* cuchara-3 */
+.agarra-cuchara3{
+    width: 4px;
+    height: 24px;
+    background-color:#787F77;
+    position: absolute;
+    left: 57px;
+    top: 0;
+    z-index: 1;
+
+}
+.metal-cuchara3{
+    width: 2px;
+    height: 28px;
+    background-color:#CECFC3;
+    position: absolute;
+    left: 58px;
+    top: 23px;
+}
+
+/* toallas de fragar */
+.contenedor-toalla{
+    width: 53px;
+    height: 39px;
+   
+   position: absolute;
+   left: 493px;
+   top: 229px;
+}
+.toalla-naranja{
+    width: 30px;
+    height: 33px;
+    background-color: #F18D4F;
+    position: absolute;
+    transform: skewX(356deg);
+    bottom: 0;
+    left: 19px;
+}
+.toalla-morada{
+    width: 30px;
+    height: 36px;
+    background-color: #6D5B6D;
+    position: absolute;
+    transform: skewX(356deg);
+    bottom: 0;
+    left: 14px;
+
+}
+.toalla-verde-oscuro{
+    width: 30px;
+    height: 39.5px;
+    background-color: #8A6014;
+    position: absolute;
+    transform: rotate(3deg) skewX(358deg);
+    bottom: 0;
+   right: 2px;
+}
+.toalla-verde-claro{
+    width: 30px;
+    height: 38px;
+    background-color: #2EB297;
+    position: absolute;
+    transform: rotate(359deg) skewX(354deg);
+    bottom: 0px;
+    left: 8px;
+}
+.toalla-verde-arbol{
+    width: 30px;
+    height: 40px;
+    background-color: #558C3C;
+    position: absolute;
+    transform: rotate(1deg) skewX(356deg);
+    bottom: 0px;
+    left: 24px;
+}
+.toalla-azul{
+    width: 30px;
+    height: 36px;
+    background-color: #366276;
+    position: absolute;
+    top: -3px;    left: 12px;
+}
+/* cafetera de abajo */
+.cafetera-blanca{
+    width: 70px;
+    height: 87px;
+   
+    position: absolute;
+    bottom: 222px;
+    right: 227px;
+}
+
+.luz-cafe{
+    width: 11px;
+    height: 22px;
+    background-color: rgba(208, 233, 230, 0.6);
+    border-top-left-radius: 10px;
+    position: absolute;
+    left: 31px;
+    bottom: 10px;
+    z-index: 1;
+}
+.parte-ariiba{
+    width:55px;
+    height: 66px;
+    background-color: #eee2df;
+    border-bottom-right-radius: 76px;
+    position: absolute;
+    top: 0px;
+    left: 6px;
+
+}
+.agarre-cafetera-blanca{
+    width: 3px;
+    height: 33px;
+    background-color: #afa097;
+    border-radius: 2px;
+    position: absolute;
+    top: 8px;
+    left: 7px;
+}
+.tapa-top{
+    width:18px;
+    height: 8px;
+   border-top-left-radius: 29px;
+   border-top-right-radius: 28px;
+    background-color: #a3a7a7;
+    position: absolute;
+    bottom: 34px;
+    left: 35px;
+    z-index: 1;
+}
+.tapa-gris-envse{
+    width:25px;
+    height: 38px;
+    background-color: #a3a7a7;
+    border-top-left-radius: 87px;
+    border-top-right-radius: 127px;
+    border-bottom-right-radius: 165px;
+    
+    position: absolute;
+    bottom: 2px;
+    right: 10px;
+
+}
+
+.envase-ondulado-blue{
+    width:32px;
+    height: 26px;
+    background-color: #a8d6cf;
+    border-top-left-radius: 88px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    
+
+    position: absolute;
+    bottom: 11px;
+    right: 14px;
+}
+.parte-baja-envase{
+    width:31px;
+    height: 7px;
+    background-color: #4e331e;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+
+    position: absolute;
+    bottom: 7px;
+    right: 16px;
+
+}
+.relleno-blanco{
+    width:43px;
+    height: 59px;
+    background-color: #eee2df;
+    position: absolute;
+    bottom: 0;
+    left: 6px;
+
+}
+.partebaja-cafetera{
+    width:62px;
+    height: 8px;
+    background-color: #eee2df;
+    border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+
+    position: absolute;
+    bottom: 0;
+    right: 7px; 
+}
+
+.tabla-cuadrada{
+    width: 73px;
+    height: 44px;
+    background-color: #996c4c;
+    position: absolute;
+    bottom: 222px;
+    right: 414px;
+}
+.barra-huevo{
+    width: 47px;
+    height: 8px;
+    position: absolute;
+    background-color: #757865;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    bottom: 222px;
+    left: 428px;
+    z-index: 2; 
+
+}
+
+.huevos{
+    width: 42px;
+    height: 8px;
+
+    position: absolute;
+    bottom: 228px;
+    left:431px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.egg{
+    margin: 1px;
+}
+
+.huevo1{
+    width: 8px;
+    height: 8px;
+    background-color: #ffff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.huevo2{
+    width: 8px;
+    height: 8px;
+    background-color: #ffff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.huevo3{
+    width: 8px;
+    height: 8px;
+    background-color: #ffff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.huevo4{
+    width: 8px;
+    height: 8px;
+    background-color: #ffff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.toalla-zite{
+    width: 57px;
+    height: 72px;
+    
+    position: absolute;
+    top: 210px;
+    left: 52px;
+    z-index: 1;
+
+}
+.lineas{
+    width: 57px;
+    height: 5px;
+    background-color: red;
+}
+.darck{
+    background-color: #f5a84b;
+}
+.clear{
+    background-color: #f7b469;
+}
+
+.toalla-back{
+    width: 57px;
+    height: 72px;
+    position: absolute;
+    top: 217px;
+    left: 49px;
+    
+    
+}
+.liena-toalla1{
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+.liena-toalla15{
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.liena-toalla131{
+    border-bottom-left-radius: 2px;
+}
+/* botella jabon */
+
+
+.botella-jabon{
+    width: 20px;
+    height: 34px;
+    position: absolute;
+    bottom: 222px;
+    left: 81px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.luz-jabon{
+    width: 4px;
+    height: 26px;
+    background-color: rgba(208, 233, 230, 0.6);
+    border-top-left-radius: 10px;
+    position: absolute;
+    left: 4px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.cuerpo-botella{
+    width: 18px;
+    height: 20px;
+    background-color: #4bad80;
+    border: 1px solid #b0dcdd;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+.cabeza-botella{
+    width: 18px;
+    height: 8px;
+    background-color: #b0dcdd;
+    position: absolute;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    bottom: 20px;
+    left: 0px;
+}
+.boca-botella{
+    width: 8px;
+    height: 9px;
+    background-color: #b0dcdd;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* taza marron */
+.taza{
+    width: 22px;
+    height: 26px;
+    background-color: #9e7a61;
+    border-radius: 1px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    position: absolute;
+    bottom: 222px;
+    left: 324px;
+}
+.luz-taza{
+    width: 7px;
+    height:26px;
+    background-color:  rgba(255, 255, 255, 0.1);
+    position: absolute;
+    left: 4px;
+    bottom: 0;
+
+}
+
+/* termo al lado de taza */
+
+
+.termo{
+    width: 18px;
+    height: 47px;
+    background-color: #ccd2cf;/* #ccd2cf */
+    border-radius: 1px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    position: absolute;
+    bottom: 222px;
+    left: 300px;
+   
+}
+
+.insede-termo1{
+    width:18px ;
+    height: 10px;
+    background-color: #bd977c;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+.insede-termo2{
+    width:18px ;
+    height: 7px;
+    background-color: #866c4f;   
+    position: absolute;
+    bottom: 10px;
+    
+}
+.insede-termo3{
+    width:18px ;
+    height: 8px;
+    background-color: #91d0d9;   
+    position: absolute;
+    bottom: 17px;
+    
+}
+.insede-termo4{
+    width:18px ;
+    height: 3px;
+    background-color: #bbc1ba;   
+    position: absolute;
+    top: 0;
+    
+}
+.luz-termo{
+    width: 6px;
+    height:47px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    position: absolute;
+    left: 2px;
+    bottom: 0;
+    z-index: 1;
+}
+
+/* greca naranja */
+.greca-naranja{
+    width: 57px;
+    height: 42px;
+    position: absolute;
+    bottom: 222px;
+    left: 155px;
+
+}
+
+.pie-greca-naranja1{
+    width: 10px;
+    height: 2px;
+    background-color: #985d2e;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.pie-greca-naranja2{
+    width: 10px;
+    height: 2px;
+    background-color: #985d2e;
+    position: absolute;
+    bottom: 0;
+    right: 2px;
+}
+.cuerpo-greca-naranja{
+    width: 57px;
+    height: 40px;
+    background-color: #f3924d;
+    border-top-right-radius: 29px;
+    border-top-left-radius: 29px;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+}
+.luz-cafetera-naranja{
+    width: 21px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 6px;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 6px;
+    position: absolute;
+    top: 5px;
+    left: 7px;
+}
+.boca-greca-naranja{
+    width: 23px;
+    height: 8px;
+    background-color: #f3924d;
+    position: absolute;
+    top: 12px;
+    right: -7px;
+    transform: rotate(-16deg)/*  skewX(30deg) skewY(40deg) */ ;
+}
+.tope-greca-naranja{
+    width: 7px;
+    height: 10px;
+    background-color: #000;
+    position: absolute;
+    top: 8px;
+    right: -9px;
+    z-index: 1;
+    transform: rotate(-16deg)
+}
+
+/* usted esta llegando a las gavetas top */
+
+/* bien benido a las gavetas de arriba  */
+.gavetastop{
+    width: 408px;
+    height: 142px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+
+    position: absolute;
+    top: 64px;
+    left: 316px;
+}
+
+ .gaveteros{
+  background-color: #ebe6e2;
+  height: auto;
+  border-right: 3px solid #b6a196;
+  
+} 
+
+.gavetero1{
+    /* outline: 2px solid red; */
+    width: 306px;
+    height: 100%;
+    position: relative;
+}
+.borde-insidetop-1{
+    width: 97px;
+    height: 128px;
+    border: 4px solid #e4d2c9;  
+    border-radius: 3px;
+
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+.manuviotop-top1{
+    width: 4px;
+    height: 37px;
+    background-color: #afa097;
+    border-radius: 2px;
+    
+    position: absolute;
+    left: 4px;
+    top: 42px;
+}
+
+.gavetero2{
+   /*  outline: 2px solid red; */
+    width: 306px;
+    height: 100%;
+    position: relative;
+}
+.border-doblesegunda{
+    width: 97px;
+    height: 128px;
+    border: 4px solid #e4d2c9;  
+    border-radius: 3px;
+
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+.manillava{
+    width: 4px;
+    height: 37px;
+    background-color: #afa097;
+    border-radius: 2px;
+    
+    position: absolute;
+    left: 4px;
+    top: 42px;
+}
+
+
+
+.gavetero3{
+   /*  outline: 2px solid red; */
+    width: 542px;
+    height: 100%;
+    position: relative;
+}
+.border-dobletercera{
+    width: 169px;
+    height: 61px;
+    border: 4px solid #e4d2c9;  
+    border-radius: 3px;
+
+    position: absolute;
+    top: 7px;
+    left: 6px;
+}
+.manillava2{
+    width:38px ;
+    height: 5px;
+    background-color: #afa097;
+    border-radius: 2px;
+    align-items: center;
+    
+    position: absolute;
+    left: 63px;
+    top: 43px;
+}
+
+.espacio-bajo{
+    width:167px;
+    height: 58px;
+    background-color: #65554c;
+    position: absolute;
+    top: 77px ;
+    left: 7px;
+    display: flex;
+}
+
+.micronda{
+    width: 108px;
+    height: 51px;
+    background-color: #ebe6e2;
+
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    position: relative;
+    display: flex;
+
+}
+.cristal{
+    width: 73px;
+    height: 40px;
+    background-image: linear-gradient(-45deg,#7e6853 ,#87756b,#5b4646);
+    background-size: 117px -1088px;
+   /*  background: url('IMG/pollo\ al\ horno-estufa.jpg'); */
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    cursor: pointer;
+}
+.cristal:hover{
+    opacity: 0.1;
+
+}
+.pollo-horneado{
+    width: 73px;
+    height: 40px;
+ /*    background: url('IMG/pollo-alhorno\ ico.ico') no-repeat; */
+ background: url('IMG/delicioso-pollo-plancha-verduras-cenar-removebg-preview.png');
+    position: absolute;
+    top:6px;
+    left: 5px;
+    opacity: 0;
+    pointer-events: none; 
+    z-index: 1;
+}
+.micronda:hover .pollo-horneado{
+    opacity:0.5;
+    background-size: cover;
+}
+.caja-botones-horno{
+    width: 25.3px;
+    height: 100%;
+    
+    
+    
+    border-left: 1px solid #8c7a6a;
+    position: absolute;
+    left: 82px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.boton-top{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #7a5a48;
+    border-radius: 50px;
+    position: absolute;
+    top: 6px;
+
+}
+.boton-bottom{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #7a5a48;
+    border-radius: 50px;
+    position: absolute;
+    top: 21px;
+}
+.contador{
+    width:19px ;
+    height: 4px;
+    border: 1px solid #a8a5a3;
+    position: absolute;
+    bottom: 5px;
+}
+
+
+/* biennvenido espacio para la cafetera */
+.tapa-cafetera{
+    width: 9px;
+    height: 3px;
+    background-color: #b2b8c1;
+    position: absolute;
+    top: 11px;
+    left: 130px;
+    border-bottom: 1px solid #0f0f0e;
+    z-index: 1;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+   
+}
+.tapa-long-cafetera{
+    width: 27px;
+    height: 4px;
+   background-color: #b2b8c1;
+    position: absolute;
+    top: 13px;
+    left: 122px;
+   
+}
+.cafetera{
+    width: 25px;
+    height: 41px;
+    position: absolute;
+    bottom: 0px;
+    left: 123px;
+    background-color: #a1d5ce;    
+}
+.luzblanca-sobre{
+    width: 11px;
+    height: 41px;
+    background-color: rgba(208, 233, 230, 0.6);
+    position: absolute;
+    left: 5px;
+    z-index: 2;
+}
+.verde-dentro{
+    width: 25px;
+    height: 4px;
+    background-color:#6f9f9b;
+    position: absolute;
+    top: 0px;
+    right: 0%;
+    /* z-index: 1; */
+}
+.metal-top{
+    width: 27px;
+    height: 3px;
+    background-color: #b2b8c1;
+    position: absolute;
+    top: 8px;
+    right: -1px;
+}
+.verde-dentro2{
+    width: 25px;
+    height: 2px;
+    background-color:#6f9f9b;
+    position: absolute;
+   bottom: 12px;
+    right: 0%;
+}
+.metal-bottom{
+    width: 27px;
+    height: 3px;
+    background-color: #b2b8c1;
+    position: absolute;
+    bottom: 6px;
+    right: -1px;
+}
+
+
+/* usted se aproxima a las gavetas de abajo */
+
+/* Bienbenido a las gavetas de abajo */
+.barra-overgaveta{
+    width: 728px;
+    height: 11px;
+    background-color: #a77961;
+
+    position: absolute;
+    bottom: 211px;
+}
+.gavetasbottom{
+   /*  width: 725px;
+    height: 163px; */
+    width: 725px;
+    height: auto;
+   
+    
+    border-left: 2px solid #b6a196;
+    
+    position: absolute;
+    bottom: 100px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -327px;
+    left: -362;
+}
+
+.gavetas{
+    border-right: 4px solid #b6a196;
+    background-color: #ece7e6;
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+}
+
+.gaveta1{
+    
+    width: 581px;
+    height: 165px;
+    min-width: 118px;
+    position: absolute;
+
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.border-dentro1{
+    width: 103px;
+    height: 138px;
+ 
+    border-top: 4px solid #e4d2c9;
+    border-right: 4px solid #e4d2c9;
+    border-bottom: 4px solid #e4d2c9;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top: 14px;
+    left: 0;
+
+    
+}
+.manuvio1{
+    width: 4px;
+    height: 37px;
+    background-color: #afa097;
+    border-radius: 2px;
+    
+    position: absolute;
+    right: 12px;
+    top: 14px;
+
+    
+}
+
+.estufa{
+    width: 787px;
+    height: 165px;
+    min-width: 118px;
+    position: absolute;
+    
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hornillas{
+    width: 110px;
+    height: 18px;
+    max-width: 100%;
+    position: absolute;
+    top: -62px;
+    text-align: center;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hornilla{
+    width: 24px;
+    height: 16px;
+    background-color: #e1d5d4;
+    border-radius: 50%;
+    margin: 2px;
+    
+}
+
+.rec-hornilla{
+    width: 37px;
+    height: 6px;
+    margin: 10px;
+}
+.rectangulo-hornilla{
+
+    width: 100%;
+    height: 100%;
+    background-color: #8a867f; 
+}
+.barra-open{
+    width: 119px;
+    height: 8px;
+    background-color: #8a867f;
+    position: absolute;
+    top: 34px;
+}
+
+
+
+.horno{
+    width: 117px;
+    height: 80px;
+    background-image: linear-gradient(-45deg,#7e6853 ,#87756b,#5b4646); 
+    background-size: 117px -1088px;
+    border: 5px solid #ffff;
+    position: absolute;
+    top: 53px;
+    cursor: pointer;
+}
+/* .horno{
+    opacity: 0.7;
+} */
+.pollo-horneado-horno{
+    width: 117px;
+    height: 80px;
+    background: url('IMG/pollo\ al\ horno-estufa.jpg') no-repeat;
+    position: absolute;
+    top:53px;
+    opacity: 0;
+    pointer-events: none; 
+    z-index: 2;
+}
+.estufa:hover .pollo-horneado-horno{
+    opacity:0.5;
+   background-size: cover;
+   border: 4px solid #ffff;
+   border-radius: 2px;
+
+   }
+
+.gaveta3{
+   
+    width: 719px;
+    height: 165px;
+    position: absolute;
+
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+}
+.borde-insidetop1{
+    width: 131px;
+    height: 41px;
+    border: 4px solid #e4d2c9;  
+    border-radius: 3px;
+
+    position: absolute;
+    top: 14px;
+    left: 6px;
+}
+.manuvio-top1{
+    width:37px ;
+    height: 5px;
+    background-color: #afa097;
+    border-radius: 2px;
+    align-items: center;
+    
+    position: absolute;
+    left: 39px;
+    top: 10px;
+}
+.border-insidebottom1{
+    width: 131px;
+    height: 88px;
+    border: 4px solid #e4d2c9;  
+    border-radius: 3px;
+
+    position: absolute;
+    top: 64px;
+    left: 6px;
+}
+.manuvio4-bottom1{
+    width:37px ;
+    height: 5px;
+    background-color: #afa097;
+    border-radius: 2px;
+    align-items: center;
+    
+    position: absolute;
+    left: 39px;
+    top: 10px;
+}
+
+.gaveta4{
+    
+    width: 719px;
+    height: 165px;
+    position: absolute;
+
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+}
+.borde-insidetop2{
+    width: 131px;
+    height: 41px;
+    border: 4px solid #e4d2c9;  
+    border-radius: 3px;
+
+    position: absolute;
+    top: 14px;
+    left: 6px;
+}
+.manuvio-top2{
+    width:37px ;
+    height: 5px;
+    background-color: #afa097;
+    border-radius: 2px;
+    align-items: center;
+    text-align: center;
+    
+    position: absolute;
+    left: 44px;
+    top: 10px;
+}
+.border-insidebottom2{
+    width: 131px;
+    height: 88px;
+    border: 4px solid #e4d2c9;  
+    border-radius: 3px;
+
+    position: absolute;
+    top: 64px;
+    left: 6px;
+    
+}
+.manuvio4-bottom2{
+    width:37px ;
+    height: 5px;
+    background-color: #afa097;
+    border-radius: 2px;
+  /*   align-items: center; */
+    
+    position: absolute;
+    left: 44px;
+    top: 10px;
+}
+
+
+.gaveta5{
+    
+    width: 731px;
+    height: 165px;
+    max-width: 100;
+    position: absolute;
+
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+}
+.border-dentre2{
+    width: 131px;
+    height: 137px;
+    border: 4px solid #e4d2c9;  
+    border-radius: 3px;
+
+    position: absolute;
+    top: 14px;
+    left: 7px;
+}
+.manuvio2{
+    width: 4px;
+    height: 37px;
+    background-color: #afa097;
+    border-radius: 2px;
+    
+    position: absolute;
+    left: 12px;
+    top: 14px;
+}
+
+
+
+/* usted se hacerca a la nevera */
+/* nevera*/
+.nevera{ 
+    width: 194px;
+    height: 425px;
+    border-top: 5px solid #d5d2d1;
+    border-left: 5px solid #d5d2d1;
+    /* border-bottom: 5px solid #d5d2d1; */
+    border-radius: 10px;
+    background-color:#d5d2d1;
+   
+
+    position: absolute;
+    bottom: 50px;
+    right: 22px;
+    
+}
+.luz-nevera-tope{
+    width: 41px;
+    height:9px;
+    background-color: rgba(255, 255, 255, 0.3);/*  */
+    position: absolute;
+    left: 41px;
+    bottom: 412px;
+    z-index: 1;
+}
+
+.espacio-top{
+    width: 185px;
+    height: 9px;
+    background-color: #f4efee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    top: 14px;
+    left: -1px;
+    
+}
+.luz-nevera-congelador{
+    width: 41px;
+    height:220px;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    left: 41px;
+    bottom: 186px;
+    z-index: 1;
+
+}
+
+.congelador{
+    width: 189px;
+    height: 223px;
+    /* border: 4px solid #e4d2c9;  */
+    background-color: #f4efee;
+    border-top: 3px solid #d5d2d1;
+    border-left: 0px solid #d5d2d1;
+    border-bottom: 0 solid #d5d2d1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+    position: absolute;
+    top: 11px;
+    left: -1px;
+}
+.open1{
+    width: 10px;
+    height: 66px;
+    background-color: #ffff;
+    border-radius: 2px;
+    
+    position: absolute;
+    left: 12px;
+    top: 125px;
+}
+
+.luz-nevera-nevera{
+    width: 41px;
+    height:175px;
+    background-color: rgba(255, 255, 255, 0.3);/*  */
+    position: absolute;
+    left: 41px;
+    bottom: 5px;
+    z-index: 1;
+}
+.puerta-nevera{
+    width: 189px;
+    height: 175px;
+    /* border: 4px solid #e4d2c9;  */ 
+    background-color: #f4efee;
+    /* border-top: 0px solid #d5d2d1;
+    border-left: 0px solid #d5d2d1;
+    border-bottom: 0px solid #d5d2d1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; */
+    border-radius: 5px;
+    
+   
+
+
+    position: absolute;
+    bottom: 5px;
+    left: -1px;
+}
+.open2{
+    width: 10px;
+    height: 43px;
+    background-color: #ffff;
+    border-radius: 2px;
+    
+    position: absolute;
+    left: 12px;
+    bottom: 114px;
+}
+
+/* pies */
+.barra-overfootter{
+    width: 911px;
+    height: 10px;
+    background-color: #725f53;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 40px;
+    
+}
+
+.pies{
+    width: 100%;
+    height: 40px;
+    background-color: #fac289;
+    position: absolute;
+    bottom: 0; 
+}
+
